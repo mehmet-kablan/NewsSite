@@ -1,0 +1,20 @@
+﻿@model News
+
+<div>
+    <div class="carousel-item">
+        <img class="d-block w-100" src="https://placeimg.com/1080/500/animals" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>@Model.NewsTitle</h5>
+            <p>@Model.NewsText</p>
+        </div>
+    </div>
+
+    @* <form id="@Model.NewsId" asp-page="/Cart" method="post"> *@
+    @*     <input type="hidden" asp-for="NewsId"/> *@
+    @*     <input type="hidden" name="returnUrl" *@
+    @*            value="@ViewContext.HttpContext.Request.PathAndQuery()"/> *@
+    @*     <span class="card-text p-1"> *@
+    @*         @Model.NewsText *@
+    @*     </span> *@
+    @* </form> *@
+</div>

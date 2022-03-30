@@ -1,0 +1,11 @@
+﻿@model SingleNewsViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 m-auto">
+            <img class="d-block w-100" src="@Model.News.ImageLink.ToString()" alt="...">
+            <h3>@Model.News.NewsTitle</h3>
+            <p>@Model.News.NewsText</p>
+        </div>
+    </div>
+</div>
